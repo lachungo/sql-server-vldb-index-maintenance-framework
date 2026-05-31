@@ -1,3 +1,9 @@
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-blue)
+![VLDB](https://img.shields.io/badge/VLDB-Multi--Terabyte-green)
+![Always On](https://img.shields.io/badge/AlwaysOn-AG%20Aware-success)
+![Automation](https://img.shields.io/badge/Automation-Queue%20Based-orange)
+
 # SQL Server VLDB Index Maintenance Framework
 
 ## Enterprise Queue-Based Index Maintenance for Multi-Terabyte SQL Server Environments
