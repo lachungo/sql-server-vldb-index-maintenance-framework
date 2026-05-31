@@ -37,7 +37,7 @@ The result is a queue-based maintenance platform designed specifically for very 
 - Reduced operational maintenance risk
 - Automated reporting and observability
 - Identified backup coordination considerations for large-scale REBUILD operations
-- 
+  
 ## What Makes This Different
 
 Unlike traditional maintenance approaches that execute maintenance against an entire database, this framework introduces:
