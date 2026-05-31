@@ -1,0 +1,20 @@
+Sanitization Report
+
+Sensitive production identifiers were removed or generalized before publication.
+
+Checked categories:
+- Company names
+- Production database names
+- Server names
+- Host names
+- Work email addresses
+- Employee names
+- Environment-specific identifiers
+
+Replacement approach:
+- Production databases were generalized to sample VLDB names where needed.
+- Recipient lists were replaced with dba-team@example.com.
+- Server and company references were removed or generalized.
+
+Final recommendation:
+Run a local scan before publishing to GitHub using the PowerShell command in the README or release notes.

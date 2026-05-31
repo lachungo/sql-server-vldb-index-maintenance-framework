@@ -1,0 +1,29 @@
+./FILE_MANIFEST.txt
+./README.md
+./SANITIZATION_REPORT.txt
+./agent-jobs/DBA - VLDB Drive Space Monitor.sql
+./agent-jobs/DBA - VLDB Maintenance - Sunday Post Log Maintenance.sql
+./agent-jobs/DBA - VLDB Maintenance - Thursday Capture and Queue Build.sql
+./agent-jobs/DBA - VLDB Maintenance Weekly Progress Report.sql
+./agent-jobs/DBA - VLDB REBUILD - Stop At Sunday 12AM.sql
+./agent-jobs/DBA - VLDB REBUILD - Weekend Orchestrator.sql
+./agent-jobs/DBA - VLDB REORG - Stop At 7 AM.sql
+./agent-jobs/DBA - VLDB REORG - Weekday Orchestrator.sql
+./docs/Architecture.md
+./docs/CaseStudy.md
+./docs/Operations-Notes.md
+./docs/VLDB_Final_Operations_Runbook.docx
+./stored-procedures/dbo.usp_Build_TargetedVLDB_IndexMaintenanceQueue.sql
+./stored-procedures/dbo.usp_Run_TargetedVLDB_IndexMaintenanceQueue_Auto.sql
+./stored-procedures/dbo.usp_Send_VLDB_MaintenanceProgressReport_Core.sql
+./stored-procedures/dbo.usp_Send_VLDB_REBUILD_WeeklyProgressReport.sql
+./stored-procedures/dbo.usp_Send_VLDB_REORG_WeeklyProgressReport.sql
+./stored-procedures/dbo.usp_Stop_VLDB_Rebuild_At_Window_End.sql
+./stored-procedures/dbo.usp_Stop_VLDB_Reorg_At_Window_End.sql
+./stored-procedures/dbo.usp_VLDB_LogBackup_Assist_IfNeeded.sql
+./stored-procedures/dbo.usp_View_TargetedVLDB_IndexMaintenanceProgress.sql
+./tables/dbo.LargeDB_IndexMaintenanceWorkQueue.sql
+./tables/dbo.LargeDB_MaintenanceProgress.sql
+./tables/dbo.LargeDB_TargetConfig.sql
+./tables/dbo.LargeDB_TargetedFragmentation.sql
+./tables/dbo.VLDB_DriveSpaceMonitor.sql
