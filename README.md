@@ -10,7 +10,7 @@
 
 > Traditional maintenance frameworks focus on executing index maintenance. This framework focuses on orchestrating index maintenance safely, predictably, and recoverably at VLDB scale.
 
-## Architecture Diagram
+## Architecture Overview
 
 ![SQL Server VLDB Index Maintenance & Orchestration Platform](diagrams/vldb-maintenance-rca.png)
 
