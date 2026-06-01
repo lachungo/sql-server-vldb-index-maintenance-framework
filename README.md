@@ -46,6 +46,11 @@ The result is a queue-based maintenance platform designed specifically for very 
 - Eliminates dependency on expensive third-party tools
 - Avoids premature Azure Hyperscale adoption
 - Provides autonomous, observable, and recoverable execution  
+
+## Architecture Diagram
+
+![SQL Server VLDB Index Maintenance & Orchestration Platform](diagrams/vldb-maintenance-rca.png)
+
 ## What Makes This Different
 
 Unlike traditional maintenance approaches that execute maintenance against an entire database, this framework introduces:
