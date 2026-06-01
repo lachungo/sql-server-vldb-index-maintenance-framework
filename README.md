@@ -10,6 +10,10 @@
 
 > Traditional maintenance frameworks focus on executing index maintenance. This framework focuses on orchestrating index maintenance safely, predictably, and recoverably at VLDB scale.
 
+## Architecture Diagram
+
+![SQL Server VLDB Index Maintenance & Orchestration Platform](diagrams/vldb-maintenance-rca.png)
+
 ### Why This Framework Exists
 
 Traditional SQL Server maintenance solutions work well for small and medium-sized databases but often become operationally challenging when database sizes reach multiple terabytes.
@@ -46,10 +50,6 @@ The result is a queue-based maintenance platform designed specifically for very 
 - Eliminates dependency on expensive third-party tools
 - Avoids premature Azure Hyperscale adoption
 - Provides autonomous, observable, and recoverable execution  
-
-## Architecture Diagram
-
-![SQL Server VLDB Index Maintenance & Orchestration Platform](diagrams/vldb-maintenance-rca.png)
 
 ## What Makes This Different
 
