@@ -271,19 +271,24 @@ For implementation guidance, environment-specific review, or professional assist
 
 ---
 
-## Author
-
-**Louis Achungo**  
-Principal SQL Architect | Cloud Database Architect (Azure | AWS)
-
-Portfolio: https://sql-it-techsolutions.com
-
-LinkedIn: https://www.linkedin.com/in/louis-achungo
-
-GitHub: https://github.com/lachungo
-
----
-
 ## License
 
 Released under the [MIT License](LICENSE). See the license for permissions, conditions, and warranty disclaimer.
+
+## 🔗 Connect
+
+- 🌐 Portfolio: https://sql-it-techsolutions.com/  
+- 💼 LinkedIn: https://linkedin.com/in/louis-achungo  
+
+---
+
+⭐ If this helped, consider starring the repo.
+
+---
+
+**Louis Achungo**  
+Principal SQL Server Architect | Performance Engineering | HA/DR | Azure SQL & AWS
+
+*Building reliable, observable, and scalable database platforms through architecture, automation, and operational excellence.*
+
+---
