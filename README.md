@@ -14,6 +14,9 @@
 
 ![SQL Server VLDB Index Maintenance & Orchestration Platform](diagrams/vldb-maintenance-rca.png)
 
+> [!WARNING]
+> **Executable SQL Server automation:** This repository contains scripts that perform index maintenance and change operational state. Review the code, validate compatibility, test in a non-production environment, and confirm backup, Availability Group, and recovery requirements before deployment.
+
 ### Why This Framework Exists
 
 Traditional SQL Server maintenance solutions work well for small and medium-sized databases but often become operationally challenging when database sizes reach multiple terabytes.
@@ -49,7 +52,7 @@ The result is a queue-based maintenance platform designed specifically for very 
 - Reduces maintenance window duration
 - Eliminates dependency on expensive third-party tools
 - Avoids premature Azure Hyperscale adoption
-- Provides autonomous, observable, and recoverable execution  
+- Provides automated, observable, and recoverable execution
 
 ## What Makes This Different
 
@@ -256,11 +259,22 @@ Planned enhancements include:
 | Case Studies | Included |
 
 ---
+## Responsible Use and Support
+
+This repository is provided for technical review, portfolio demonstration, and controlled evaluation. Implementations must be independently reviewed and adapted for the target SQL Server environment.
+
+Validate SQL Server compatibility, permissions, Availability Group topology, maintenance windows, disk and transaction-log capacity, backup coordination, workload impact, and recovery procedures before deployment.
+
+The software is provided without warranty, subject to the terms of the repository's license.
+
+For implementation guidance, environment-specific review, or professional assistance, contact [Louis Achungo on LinkedIn](https://www.linkedin.com/in/louis-achungo/).
+
+---
 
 ## Author
 
 **Louis Achungo**  
-Principal SQL Architect | Cloud Database DBS (Azure | AWS)
+Principal SQL Architect | Cloud Database Architect (Azure | AWS)
 
 Portfolio: https://sql-it-techsolutions.com
 
@@ -272,4 +286,4 @@ GitHub: https://github.com/lachungo
 
 ## License
 
-MIT License
+Released under the [MIT License](LICENSE). See the license for permissions, conditions, and warranty disclaimer.
