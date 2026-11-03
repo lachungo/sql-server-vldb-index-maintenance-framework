@@ -287,7 +287,8 @@ Released under the [MIT License](LICENSE). See the license for permissions, cond
 ---
 
 **Louis Achungo**  
-Principal SQL Server Architect | Performance Engineering | HA/DR | Azure SQL & AWS
+
+SQL Server DBA | SQL Server Architect | Performance Engineering | HA/DR | Azure SQL & AWS
 
 *Building reliable, observable, and scalable database platforms through architecture, automation, and operational excellence.*
 
